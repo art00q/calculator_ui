@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  max-width: 325px;
+  max-height: 600px;
+  background-color: #17171C;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.calculator__display {
+  min-height: 96px;
+}
+
+.calculator__body {
+
+}
+
+.font {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.calculator__display__result {
+  font-size: 96px;
+  line-height: 96px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.button {
+  background-color: #2E2F38;
+  max-width: 68px;
+  min-width: 67px;
+  max-height: 71px;
+  min-height: 70px;
+  padding: 15px 25px;
+  margin: 5px;
+  text-align: center;
+  border: 0;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.button__delete {
+  position: relative;
+  top: -3px;
+  left: -7px;
+}
+
+.clear {
+  background-color: #4E505F;
+}
+
+.operation {
+  background-color: #4B5EFC;
+}
+
+.button-medium {
+  min-width: 150px;
+}
+
+.button-large {
+  min-width: 230px;
+}
